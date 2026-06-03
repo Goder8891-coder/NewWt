@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Free Website Review — WebThangs</title>
+<meta name="description" content="Send us your website. We'll x-ray it for conversion opportunities — at no cost." />
+<meta property="og:title" content="Free Website Review — WebThangs" />
+<meta property="og:description" content="Send us your website. We'll x-ray it for conversion opportunities." />
+<meta name="theme-color" content="#0B0B0B" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="assets/fonts/inter.css" />
+<link rel="stylesheet" href="assets/fonts/fraunces.css" />
+<link rel="stylesheet" href="assets/fonts/jetbrains.css" />
+<link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<div id="site-header"></div>
+<main id="main" tabindex="-1">
+
+<section class="relative overflow-hidden">
+  <div class="hero-glow" aria-hidden="true"></div>
+  <div class="container-wt section-y relative">
+    <div class="max-w-3xl">
+      <span class="eyebrow">Free Website X-Ray</span>
+      <h1 class="h-hero mt-5 text-balance" data-words>Discover the opportunities <span class="hero-accent">hiding</span> inside your website.</h1>
+      <p class="body-lg mt-6 reading">Paste your URL. We'll review the experience and identify where leads are most likely being lost — at no cost.</p>
+    </div>
+  </div>
+</section>
+
+<section class="bg-surface border-y">
+  <div class="container-wt section-y review-grid">
+    <div>
+      <span class="eyebrow">What gets reviewed</span>
+      <h2 class="h-section mt-5 text-balance">A focused, useful review.</h2>
+      <ul class="review-areas">
+        <li class="review-area"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg><span>Messaging clarity</span></li>
+        <li class="review-area"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg><span>User experience</span></li>
+        <li class="review-area"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg><span>Mobile experience</span></li>
+        <li class="review-area"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg><span>Navigation hierarchy</span></li>
+        <li class="review-area"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg><span>Call-to-action effectiveness</span></li>
+        <li class="review-area"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg><span>Trust signal density</span></li>
+        <li class="review-area"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg><span>Page speed friction</span></li>
+      </ul>
+    </div>
+
+    <div>
+      <form class="card-wt" data-form data-success="#fr-success" style="display:grid;gap:18px">
+        <div class="text-xs uppercase tracking-wider text-text-muted font-mono">Request review</div>
+        <label class="field-label">Website URL <span class="req">*</span>
+          <div style="display:flex;gap:8px;margin-top:8px">
+            <input id="siteUrl" required type="url" class="input-wt" placeholder="https://yoursite.com" style="flex:1"/>
+            <button type="button" id="scanBtn" class="btn btn-secondary">Scan</button>
+          </div>
+        </label>
+
+        <!-- X-ray preview -->
+        <div class="xray" id="xray" aria-hidden="true">
+          <div class="xray-screen">
+            <div class="xs-bar"><i></i><i></i><i></i><div class="xs-url">https://yoursite.com</div></div>
+            <div class="xs-h"></div>
+            <div class="xs-sub"></div>
+            <div class="xs-box"></div>
+          </div>
+          <div class="xray-sweep"></div>
+          <div class="xray-pin" style="left:14%;top:30%">headline?</div>
+          <div class="xray-pin" style="left:55%;top:48%">cta count</div>
+          <div class="xray-pin" style="left:30%;top:72%">tap target</div>
+          <div class="xray-pin" style="left:70%;top:80%">trust</div>
+          <div class="xray-overlay">Paste a URL to begin scan</div>
+        </div>
+
+        <div style="display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))">
+          <label class="field-label">Name <span class="req">*</span><input required class="input-wt" placeholder="Your name" style="margin-top:8px"/></label>
+          <label class="field-label">Email <span class="req">*</span><input required type="email" class="input-wt" placeholder="you@company.com" style="margin-top:8px"/></label>
+        </div>
+
+        <label class="field-label">Biggest concern (optional)<textarea class="input-wt" placeholder="What worries you most about your current website?" style="margin-top:8px"></textarea></label>
+
+        <button type="submit" class="btn btn-primary btn-lg">Request my review
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </button>
+        <p class="text-xs text-text-muted">No spam, no follow-up sales sequence. Reviews returned within 48h.</p>
+      </form>
+
+      <div id="fr-success" class="card-wt success-card mt-6">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+        <h2 class="mt-4 h-sub font-serif italic" style="font-weight:500">Scan queued.</h2>
+        <p class="mt-3 text-muted-foreground">You'll get your review by email within 48 hours.</p>
+        <a class="btn btn-secondary mt-6" href="teardowns.html">See teardown examples</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+<div id="site-footer"></div>
+<script src="assets/partials.js" defer></script>
+<script src="assets/app.js" defer></script>
+</body></html>

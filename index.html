@@ -1,0 +1,580 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>WebThangs — Turn website visitors into customers</title>
+<meta name="description" content="WebThangs is a conversion growth studio. We help businesses generate more leads from the traffic they already have." />
+<meta property="og:title" content="WebThangs — Turn website visitors into customers" />
+<meta property="og:description" content="A conversion growth studio. Live audits, real teardowns, measurable lift." />
+<meta property="og:type" content="website" />
+<meta name="theme-color" content="#0B0B0B" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="assets/fonts/inter.css" />
+<link rel="stylesheet" href="assets/fonts/fraunces.css" />
+<link rel="stylesheet" href="assets/fonts/jetbrains.css" />
+<link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<div id="site-header"></div>
+
+<main id="main" tabindex="-1">
+
+<!-- HERO ─────────────────────────────────────────────────── -->
+<section class="relative overflow-hidden">
+  <div class="hero-glow" aria-hidden="true"></div>
+  <div class="container-wt section-y relative">
+    <div class="hero-grid">
+      <div>
+        <span class="eyebrow">Conversion Growth Studio</span>
+        <h1 class="h-hero mt-5 text-balance" data-words>Your website should be generating <span class="hero-accent">more</span> leads.</h1>
+        <p class="body-lg mt-6 reading">If your site is getting visitors but not enough enquiries, bookings or customers — there are opportunities being missed. We find them, fix them, and prove the lift.</p>
+        <div class="mt-8 flex flex-wrap items-center gap-3">
+          <a class="btn btn-primary btn-lg" href="book.html">Book Strategy Call
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+          <a class="btn btn-secondary btn-lg" href="free-review.html">Get a free 60-sec teardown</a>
+        </div>
+      </div>
+
+      <!-- Editorial hero card (static; replaces looping audit-mock) -->
+      <aside class="audit-mock">
+        <div class="editorial">
+          <div>
+            <div class="label">Conversion · before</div>
+            <div class="value">1.4<span class="unit">%</span></div>
+          </div>
+          <div class="arrow">→</div>
+          <div>
+            <div class="label">After · 90 days</div>
+            <div class="value after">3.2<span class="unit">%</span></div>
+          </div>
+        </div>
+        <div class="foot">
+          <span class="tag">Median engagement, 2023–2025</span>
+          <span class="live">Booking</span>
+        </div>
+      </aside>
+    </div>
+
+    <!-- Journey rail -->
+    <div class="journey-rail">
+      <div class="label">The conversion journey</div>
+      <div class="journey-track">
+        <div class="journey-node"><span class="num">01</span><span>Visitors</span></div>
+        <div class="journey-node"><span class="num">02</span><span>Website</span></div>
+        <div class="journey-node warn"><span class="num">03</span><span>Missed Opportunities</span></div>
+        <div class="journey-node"><span class="num">04</span><span>Improved Experience</span></div>
+        <div class="journey-node accent"><span class="num">05</span><span>More Leads</span></div>
+      </div>
+    </div>
+  </div>
+
+<!-- AUDIT: trust band — placeholder slots for real logos / headshot -->
+<section aria-label="Studios and brands we've shipped lift for" class="container-wt">
+  <div class="trust-band">
+    <span class="trust-logo" data-trust-logo="1">Studio A</span>
+    <span class="trust-logo" data-trust-logo="2">Brand B</span>
+    <span class="trust-logo" data-trust-logo="3">Atelier C</span>
+    <span class="trust-logo" data-trust-logo="4">Group D</span>
+    <span class="trust-logo" data-trust-logo="5">Co. E</span>
+    <span class="trust-portrait" data-portrait="founder" aria-label="Founder portrait placeholder"></span>
+  </div>
+</section>
+
+<!-- PROBLEM (Funnel) ──────────────────────────────────────── -->
+<section class="bg-surface border-y">
+  <div class="container-wt section-y">
+    <div class="max-w-3xl">
+      <span class="eyebrow">Six Holes In Your Funnel</span>
+      <h2 class="h-section mt-5 text-balance">Most websites lose potential customers <span class="font-serif allow-italic u-color-fg">every day.</span></h2>
+      <p class="body-lg mt-5 reading">Visitors arrive. They become uncertain. They hesitate. They leave. The cost rarely shows up in analytics — it shows up in the leads you never received. Tap a hole to plug it.</p>
+    </div>
+
+    <div class="funnel-wrap">
+      <!-- Funnel SVG -->
+      <svg class="funnel-svg" viewBox="0 0 360 380" role="img" aria-label="Conversion funnel diagram showing six holes where visitors drop off">
+        <defs>
+          <linearGradient id="funnelGrad" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#191919"/>
+            <stop offset="100%" stop-color="#131313"/>
+          </linearGradient>
+        </defs>
+        <!-- funnel body -->
+        <path d="M40,20 L320,20 L210,250 L210,360 L150,360 L150,250 Z"
+              fill="url(#funnelGrad)" stroke="#3d3d3d" stroke-width="1.5"/>
+        <!-- holes -->
+        <g class="funnel-hole" data-idx="1" transform="translate(95,60)">
+          <circle class="hole-circle" r="9" fill="#0a0a0a" stroke="#ff6f69" stroke-width="1.5"/>
+          <circle class="drip" cx="0" cy="9" r="3" fill="#ff6f69"/>
+        </g>
+        <g class="funnel-hole" data-idx="2" transform="translate(180,80)">
+          <circle class="hole-circle" r="9" fill="#0a0a0a" stroke="#ff6f69" stroke-width="1.5"/>
+          <circle class="drip u-drip-d4" cx="0" cy="9" r="3" fill="#ff6f69"/>
+        </g>
+        <g class="funnel-hole" data-idx="3" transform="translate(265,60)">
+          <circle class="hole-circle" r="9" fill="#0a0a0a" stroke="#ff6f69" stroke-width="1.5"/>
+          <circle class="drip u-drip-d8" cx="0" cy="9" r="3" fill="#ff6f69"/>
+        </g>
+        <g class="funnel-hole" data-idx="4" transform="translate(120,140)">
+          <circle class="hole-circle" r="9" fill="#0a0a0a" stroke="#ff6f69" stroke-width="1.5"/>
+          <circle class="drip u-drip-d2" cx="0" cy="9" r="3" fill="#ff6f69"/>
+        </g>
+        <g class="funnel-hole" data-idx="5" transform="translate(240,140)">
+          <circle class="hole-circle" r="9" fill="#0a0a0a" stroke="#ff6f69" stroke-width="1.5"/>
+          <circle class="drip u-drip-d12" cx="0" cy="9" r="3" fill="#ff6f69"/>
+        </g>
+        <g class="funnel-hole" data-idx="6" transform="translate(180,205)">
+          <circle class="hole-circle" r="9" fill="#0a0a0a" stroke="#ff6f69" stroke-width="1.5"/>
+          <circle class="drip u-drip-d6" cx="0" cy="9" r="3" fill="#ff6f69"/>
+        </g>
+        <!-- output drop -->
+        <rect x="155" y="345" width="50" height="14" rx="3" fill="#b8ff59" opacity="0.85"/>
+        <text x="180" y="378" font-family="ui-monospace,monospace" font-size="9" fill="#ababab" text-anchor="middle">leads out</text>
+        <text x="180" y="14" font-family="ui-monospace,monospace" font-size="9" fill="#ababab" text-anchor="middle">visitors in</text>
+      </svg>
+
+      <ol class="funnel-labels">
+        <li class="funnel-label" data-idx="1"><span class="num">01</span><span>Unclear messaging</span><span class="check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span></li>
+        <li class="funnel-label" data-idx="2"><span class="num">02</span><span>Weak trust signals</span><span class="check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span></li>
+        <li class="funnel-label" data-idx="3"><span class="num">03</span><span>Poor mobile experience</span><span class="check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span></li>
+        <li class="funnel-label" data-idx="4"><span class="num">04</span><span>Confusing navigation</span><span class="check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span></li>
+        <li class="funnel-label" data-idx="5"><span class="num">05</span><span>Weak calls-to-action</span><span class="check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span></li>
+        <li class="funnel-label" data-idx="6"><span class="num">06</span><span>Too many distractions</span><span class="check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- TRIAGE ───────────────────────────────────────────────── -->
+<section>
+  <div class="container-wt section-y">
+    <div class="max-w-3xl">
+      <span class="eyebrow">Self-Diagnosis</span>
+      <h2 class="h-section mt-5 text-balance">Does any of this sound <span class="font-serif italic u-color-primary">familiar?</span></h2>
+      <p class="body-lg mt-5 reading">Tap each statement that applies to your website. We'll measure the opportunity and pre-fill your strategy call.</p>
+    </div>
+
+    <ul class="triage">
+      <li class="triage-item" data-issue="Traffic but not enough leads">
+        <span class="triage-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+        <span class="triage-text">We're getting traffic but not enough leads.</span>
+      </li>
+      <li class="triage-item" data-issue="Looks decent but underperforms">
+        <span class="triage-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+        <span class="triage-text">Our website looks decent but underperforms.</span>
+      </li>
+      <li class="triage-item" data-issue="Visitors rarely contact us">
+        <span class="triage-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+        <span class="triage-text">Visitors rarely contact us.</span>
+      </li>
+      <li class="triage-item" data-issue="Unsure where opportunities are lost">
+        <span class="triage-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+        <span class="triage-text">We're unsure where opportunities are being lost.</span>
+      </li>
+      <li class="triage-item" data-issue="Marketing not producing results">
+        <span class="triage-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+        <span class="triage-text">Marketing efforts aren't producing expected results.</span>
+      </li>
+    </ul>
+
+    <div class="triage-meter">
+      <div class="triage-readout"><span>Severity</span><strong id="triageLabel">No issues selected</strong></div>
+      <div class="triage-bar"><div class="triage-bar-fill"></div></div>
+      <div class="triage-readout u-mt-2"><span class="font-mono text-xs uppercase u-track-wide">Selected</span><span id="triageCount" class="font-mono text-sm u-color-fg">0 / 5</span></div>
+    </div>
+
+    <div class="mt-8">
+      <a class="btn btn-primary btn-lg" href="book.html">
+        <span id="triageCta">Find your missed opportunities</span>
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ESTIMATOR ────────────────────────────────────────────── -->
+<section class="bg-surface border-y">
+  <div class="container-wt section-y">
+    <div class="max-w-3xl">
+      <span class="eyebrow">The Gap</span>
+      <h2 class="h-section mt-5 text-balance">See the revenue <span class="font-serif italic u-color-primary">between</span> what you have and what's possible.</h2>
+      <p class="body-lg mt-5 reading">A rough indicator of the additional leads and revenue waiting inside the visitors you already have.</p>
+    </div>
+
+    <div class="mt-12 u-grid-2">
+      <div class="card-wt">
+        <div class="u-col">
+          <div>
+            <div class="u-row-between u-mb-3">
+              <label class="text-sm text-muted-foreground" for="visitors">Monthly visitors</label>
+              <span id="visitorsOut" class="u-metric">2,000</span>
+            </div>
+            <input id="visitors" class="range" type="range" min="200" max="100000" step="100" value="2000" />
+            <div class="flex justify-between text-xs text-text-muted tabular-nums font-mono u-mt-2"><span>200</span><span>100,000</span></div>
+          </div>
+          <div>
+            <div class="u-row-between u-mb-3">
+              <label class="text-sm text-muted-foreground" for="value">Approximate customer value</label>
+              <span id="valueOut" class="u-metric">$500</span>
+            </div>
+            <input id="value" class="range" type="range" min="50" max="10000" step="50" value="500" />
+            <div class="flex justify-between text-xs text-text-muted tabular-nums font-mono u-mt-2"><span>$50</span><span>$10,000</span></div>
+          </div>
+        </div>
+        <svg id="gapChart" class="gap-chart mt-8" viewBox="0 0 600 220" preserveAspectRatio="none" aria-hidden="true"></svg>
+      </div>
+      <div class="card-wt u-col-between">
+        <div>
+          <div class="text-xs uppercase tracking-wider text-text-muted font-mono">Estimated additional opportunity / month</div>
+          <div class="mt-4 u-grid-2-tight">
+            <div class="stat"><div class="label">Extra leads</div><div class="value" id="leadsOut">20–60</div></div>
+            <div class="stat accent"><div class="label">Potential revenue</div><div class="value" id="revOut">$10,000–$30,000</div></div>
+          </div>
+          <p class="mt-6 text-sm text-muted-foreground">Based on lifting a typical 1% conversion rate to 2–4%. Real-world results depend on your site, audience and offer.</p>
+        </div>
+        <div class="mt-8"><a class="btn btn-primary btn-lg" href="book.html">Explore my opportunities <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+@media(min-width:900px){
+  section .grid-2{grid-template-columns:1.1fr 1fr!important;}
+}
+</style>
+
+<!-- TEARDOWN PREVIEW ─────────────────────────────────────── -->
+<section id="teardowns-preview">
+  <div class="container-wt section-y">
+    <div class="md-row">
+      <div class="max-w-2xl">
+        <span class="eyebrow">Living Teardowns</span>
+        <h2 class="h-section mt-5 text-balance">Real examples of why websites lose leads — and how to <span class="font-serif italic u-color-primary">fix them.</span></h2>
+        <p class="body-lg mt-5 reading">Drag the seam on each card to see the before and after. Every teardown follows the same structure: problem, why it matters, potential impact, recommended improvement.</p>
+      </div>
+      <a class="btn btn-secondary self-start" href="teardowns.html">View all teardowns
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </a>
+    </div>
+
+    <div class="teardown-grid">
+
+      <article class="card-wt hover-lift">
+        <div class="tc-thumb">
+          <div class="sev" data-sev="4"></div>
+          <div class="seam-wrap" data-seam="50">
+            <div class="seam-before">
+              <div class="fake-browser">
+                <div class="bar"><span class="b"></span><span class="b"></span><span class="b"></span><span class="url">localservice.co</span></div>
+                <div class="body"><div class="skel h u-skel-60"></div><div class="skel u-skel-50"></div><div class="no-cta">No clear CTA</div></div>
+              </div>
+            </div>
+            <div class="seam-after">
+              <div class="fake-browser">
+                <div class="bar"><span class="b"></span><span class="b"></span><span class="b"></span><span class="url">localservice.co</span></div>
+                <div class="body"><div class="skel h u-skel-80"></div><div class="skel u-skel-55"></div><div class="good-cta">Book now</div></div>
+              </div>
+            </div>
+            <span class="seam-tag before">Before</span>
+            <span class="seam-tag after">After</span>
+            <div class="seam-line"></div>
+            <div class="seam-handle"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/><polyline points="9 18 15 12 9 6" transform="translate(8 0)"/></svg></div>
+          </div>
+        </div>
+        <div class="text-xs uppercase tracking-wider text-text-muted font-mono">Example 01 · Local services</div>
+        <h3 class="mt-3 text-xl leading-snug font-serif italic" style="font-weight:500">Headline describes the company, not the customer.</h3>
+        <dl class="mt-5 row" style="display:grid;gap:16px;font-size:14px">
+          <div><dt>Why it matters</dt><dd>Visitors don't recognize themselves in the first 5 seconds, so they bounce.</dd></div>
+          <div><dt>Potential impact</dt><dd>Estimated 30–60% drop-off before the fold loads.</dd></div>
+          <div><dt>Recommended fix</dt><dd class="accent"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 4.6L18.5 9.5l-4.6 1.9L12 16l-1.9-4.6L5.5 9.5l4.6-1.9z"/></svg><span>Rewrite the hero around the visitor's outcome and add a single, specific CTA.</span></dd></div>
+        </dl>
+      </article>
+
+      <article class="card-wt hover-lift">
+        <div class="tc-thumb">
+          <div class="sev" data-sev="5"></div>
+          <div class="seam-wrap" data-seam="50">
+            <div class="seam-before">
+              <div class="fake-browser">
+                <div class="bar"><span class="b"></span><span class="b"></span><span class="b"></span><span class="url">saas.app</span></div>
+                <div class="body"><div class="skel h" style="width:50%"></div>
+                  <div class="cta-row"><span class="cta-chip bad">CTA</span><span class="cta-chip bad">CTA</span><span class="cta-chip bad">CTA</span><span class="cta-chip bad">CTA</span><span class="cta-chip bad">CTA</span><span class="cta-chip bad">CTA</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="seam-after">
+              <div class="fake-browser">
+                <div class="bar"><span class="b"></span><span class="b"></span><span class="b"></span><span class="url">saas.app</span></div>
+                <div class="body"><div class="skel h u-skel-60"></div>
+                  <div class="cta-row"><span class="cta-chip on">Start free</span></div>
+                  <div class="skel" style="width:40%;margin-top:4px"></div>
+                </div>
+              </div>
+            </div>
+            <span class="seam-tag before">Before</span>
+            <span class="seam-tag after">After</span>
+            <div class="seam-line"></div>
+            <div class="seam-handle"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/><polyline points="9 18 15 12 9 6" transform="translate(8 0)"/></svg></div>
+          </div>
+        </div>
+        <div class="text-xs uppercase tracking-wider text-text-muted font-mono">Example 02 · B2B SaaS</div>
+        <h3 class="mt-3 text-xl leading-snug font-serif italic" style="font-weight:500">Six competing CTAs above the fold.</h3>
+        <dl class="mt-5 row" style="display:grid;gap:16px;font-size:14px">
+          <div><dt>Why it matters</dt><dd>Choice overload reduces action. Visitors do nothing instead of choosing.</dd></div>
+          <div><dt>Potential impact</dt><dd>Conversion rate typically halves vs. a single primary CTA.</dd></div>
+          <div><dt>Recommended fix</dt><dd class="accent"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 4.6L18.5 9.5l-4.6 1.9L12 16l-1.9-4.6L5.5 9.5l4.6-1.9z"/></svg><span>Promote one primary action and demote everything else to secondary or remove it.</span></dd></div>
+        </dl>
+      </article>
+
+      <article class="card-wt hover-lift">
+        <div class="tc-thumb">
+          <div class="sev" data-sev="3"></div>
+          <div class="seam-wrap" data-seam="50">
+            <div class="seam-before">
+              <div class="fake-browser">
+                <div class="bar"><span class="b"></span><span class="b"></span><span class="b"></span><span class="url">shop.co</span></div>
+                <div class="body"><div class="grid-mini"><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div></div></div>
+              </div>
+            </div>
+            <div class="seam-after">
+              <div class="fake-browser">
+                <div class="bar"><span class="b"></span><span class="b"></span><span class="b"></span><span class="url">shop.co</span></div>
+                <div class="body"><div class="grid-mini lg"><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div></div></div>
+              </div>
+            </div>
+            <span class="seam-tag before">Before</span>
+            <span class="seam-tag after">After</span>
+            <div class="seam-line"></div>
+            <div class="seam-handle"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/><polyline points="9 18 15 12 9 6" transform="translate(8 0)"/></svg></div>
+          </div>
+        </div>
+        <div class="text-xs uppercase tracking-wider text-text-muted font-mono">Example 03 · E-commerce</div>
+        <h3 class="mt-3 text-xl leading-snug font-serif italic" style="font-weight:500">Mobile tap targets smaller than 40px with no spacing.</h3>
+        <dl class="mt-5 row" style="display:grid;gap:16px;font-size:14px">
+          <div><dt>Why it matters</dt><dd>Most traffic is mobile. Mis-taps create friction and abandoned sessions.</dd></div>
+          <div><dt>Potential impact</dt><dd>Add-to-cart rate measurably suppressed on mobile devices.</dd></div>
+          <div><dt>Recommended fix</dt><dd class="accent"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 4.6L18.5 9.5l-4.6 1.9L12 16l-1.9-4.6L5.5 9.5l4.6-1.9z"/></svg><span>Apply a 44px minimum tap target and increase vertical spacing in product grids.</span></dd></div>
+        </dl>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- METHOD ───────────────────────────────────────────────── -->
+<section id="how-it-works" class="bg-surface border-y">
+  <div class="container-wt section-y">
+    <div class="max-w-3xl">
+      <span class="eyebrow">The Method</span>
+      <h2 class="h-section mt-5 text-balance">A simple, four-step process — with <span class="font-serif allow-italic u-color-fg">receipts.</span></h2>
+    </div>
+
+    <div class="method method-strip"><div class="method-track">
+
+      <div class="method-step">
+        <span class="method-num">i</span>
+        <div>
+          <h3>Discover</h3>
+          <p>Identify friction points and missed opportunities across the user journey.</p>
+        </div>
+        <div class="vignette v-discover" data-vignette="discover">
+          <div class="v-browser">
+            <div class="v-bar"><i></i><i></i><i></i><span class="v-url">site.com</span></div>
+            <div class="v-wire">
+              <div class="v-headline"></div>
+              <div class="v-line w70"></div>
+              <div class="v-line w90"></div>
+              <div class="v-cta"></div>
+              <div class="v-line w55"></div>
+              <div class="v-heat h1"></div>
+              <div class="v-heat h2"></div>
+              <div class="v-heat h3"></div>
+              <div class="v-cursor" aria-hidden="true"></div>
+            </div>
+          </div>
+          <div class="v-stats">
+            <div><span class="v-num" data-count-to="78">0</span><span class="v-suf">%</span><em>scroll depth</em></div>
+            <div><span class="v-num" data-count-to="42">0</span><span class="v-suf">%</span><em>CTA visibility</em></div>
+            <div><span class="v-num" data-count-to="91">0</span><span class="v-suf">%</span><em>bounce on mobile</em></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="method-step">
+        <span class="method-num">ii</span>
+        <div>
+          <h3>Review</h3>
+          <p>Analyze the website experience and user journey, end-to-end.</p>
+        </div>
+        <div class="vignette v-review" data-vignette="review">
+          <div class="v-score">
+            <div class="v-score-arc" aria-hidden="true">
+              <svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="44" class="track"/><circle cx="50" cy="50" r="44" class="fill" pathLength="100"/></svg>
+              <div class="v-score-num"><span data-count-from="62" data-count-to="91">62</span><em>conversion score</em></div>
+            </div>
+          </div>
+          <ul class="v-checks">
+            <li data-status="pass"><span class="dot"></span><span>Headline scan</span><b>Pass</b></li>
+            <li data-status="fail"><span class="dot"></span><span>CTA hierarchy</span><b>3 competing</b></li>
+            <li data-status="fail"><span class="dot"></span><span>Mobile tap targets</span><b>32px avg</b></li>
+            <li data-status="warn"><span class="dot"></span><span>Trust signals</span><b>Thin</b></li>
+            <li data-status="pass"><span class="dot"></span><span>Page weight</span><b>1.2 MB</b></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="method-step">
+        <span class="method-num">iii</span>
+        <div>
+          <h3>Recommend</h3>
+          <p>Prioritize the most impactful improvements with projected lift.</p>
+        </div>
+        <div class="vignette v-recommend" data-vignette="recommend">
+          <ul class="v-stack">
+            <li><span class="r-tag">Rewrite hero copy</span><span class="r-bar"><i style="--w:78%"></i></span><span class="r-lift" data-count-to="18">+0%</span></li>
+            <li><span class="r-tag">Single primary CTA</span><span class="r-bar"><i style="--w:62%"></i></span><span class="r-lift" data-count-to="12">+0%</span></li>
+            <li><span class="r-tag minus">Remove 4 footer CTAs</span><span class="r-bar"><i style="--w:34%"></i></span><span class="r-lift" data-count-to="6">+0%</span></li>
+            <li><span class="r-tag">Mobile spacing fix</span><span class="r-bar"><i style="--w:48%"></i></span><span class="r-lift" data-count-to="9">+0%</span></li>
+          </ul>
+          <div class="v-total">Projected lift <b><span data-count-to="45">0</span>%</b></div>
+        </div>
+      </div>
+
+      <div class="method-step">
+        <span class="method-num">iv</span>
+        <div>
+          <h3>Improve</h3>
+          <p>Implement changes designed to support measurable business goals.</p>
+        </div>
+        <div class="vignette v-improve" data-vignette="improve">
+          <div class="v-diff">
+            <div class="v-diff-row del"><span class="g">−</span><code>&lt;h1&gt;We do many things&lt;/h1&gt;</code></div>
+            <div class="v-diff-row add"><span class="g">+</span><code>&lt;h1&gt;Get more bookings in 30 days.&lt;/h1&gt;</code><span class="v-caret" aria-hidden="true"></span></div>
+            <div class="v-diff-row del"><span class="g">−</span><code>&lt;Cta /&gt; &lt;Cta /&gt; &lt;Cta /&gt;</code></div>
+            <div class="v-diff-row add"><span class="g">+</span><code>&lt;Cta primary="Book a call" /&gt;</code></div>
+          </div>
+          <div class="v-ship">
+            <span class="v-ship-dot"></span>
+            <span class="v-ship-text">deployed · <b>+34%</b> bookings in 14 days</span>
+            <span class="v-ship-tag">live</span>
+          </div>
+        </div>
+      </div>
+    </div></div>
+  </div>
+</section>
+
+<!-- RECEIPTS (Why work with us) ──────────────────────────── -->
+<section>
+  <div class="container-wt section-y">
+    <div class="max-w-3xl">
+      <span class="eyebrow">Receipts</span>
+      <h2 class="h-section mt-5 text-balance">Built around <span class="font-serif italic u-color-primary">outcomes,</span> not deliverables.</h2>
+    </div>
+
+    <div class="receipts">
+      <div class="receipt r-slack">
+        <div class="r-head"><span class="r-dot"></span> client slack · #site-redesign</div>
+        <div class="msg">
+          <div class="av">M</div>
+          <div>
+            <div><span class="who">Marcus</span><span class="when">9:42 AM</span></div>
+            <div class="text">that v2 hero is doing serious work. <span class="lift">+2.7× signups</span> in the first 11 days 🤯</div>
+          </div>
+        </div>
+        <div class="msg">
+          <div class="av" style="background:linear-gradient(135deg,#888,#444);color:#fff">P</div>
+          <div>
+            <div><span class="who">Priya</span><span class="when">9:44 AM</span></div>
+            <div class="text">also bookings on mobile up <span class="lift">+41%</span>. customers literally calling now.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="receipt r-loom">
+        <div class="video">
+          <div class="play"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><polygon points="6 4 20 12 6 20"/></svg></div>
+          <div class="ts">02:14</div>
+        </div>
+        <div class="meta">
+          <div class="r-head"><span class="r-dot"></span> live audit · 2 min</div>
+          <p class="quote">"They opened our site and within 90 seconds had circled 6 things we'd been arguing about for 2 years."</p>
+          <p class="by">— Founder, Series-A B2B SaaS</p>
+        </div>
+      </div>
+
+      <div class="receipt r-play">
+        <div class="r-head"><span class="r-dot"></span> engagement playbook</div>
+        <div class="play-art">
+          <div class="pl h"></div>
+          <div class="pl m"></div>
+          <div class="pl s"></div>
+          <div class="pl m"></div>
+          <div class="pl s"></div>
+        </div>
+        <h3 class="font-serif italic" style="font-size:18px;font-weight:500;letter-spacing:-0.01em">No retainer traps. No template pitches.</h3>
+        <p class="mt-3 text-sm text-muted-foreground">A defined scope, a measurable goal, and a date by which it ships.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PULL QUOTE — editorial broadsheet (full-bleed asymmetric) ─────── -->
+<section>
+  <div class="container-wt">
+    <div class="pull-quote-editorial">
+      <p class="pq-eyebrow">On craft · No. 04</p>
+      <blockquote>We don't design websites that look good. We design websites that <em class="font-serif" style="font-style:italic">work.</em></blockquote>
+      <div class="pq-meta">
+        <strong>The WebThangs principle</strong><br/>
+        Function before flourish.<br/>
+        Outcomes, not deliverables.<br/>
+        Receipts on every claim.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ ──────────────────────────────────────────────────── -->
+<section>
+  <div class="container-wt section-y">
+    <div class="max-w-3xl">
+      <span class="eyebrow">FAQ</span>
+      <h2 class="h-section mt-5 text-balance">Frequently asked.</h2>
+    </div>
+    <div class="faq mt-12">
+      <details><summary>What kind of businesses do you work with?<span class="plus"></span></summary><div class="answer">Service businesses, B2B SaaS, e-commerce, and agencies — anyone with traffic that isn't converting at its potential. We focus on the quality of the opportunity, not the industry.</div></details>
+      <details><summary>How long does an engagement take?<span class="plus"></span></summary><div class="answer">Most projects ship measurable improvements within 4–6 weeks. Full rebuilds run 8–12 weeks. We define the timeline upfront and stick to it.</div></details>
+      <details><summary>Do you guarantee specific conversion lifts?<span class="plus"></span></summary><div class="answer">No honest agency does. What we guarantee is a clear hypothesis for every change, a measurement plan to validate it, and the honesty to call something that didn't work.</div></details>
+      <details><summary>Will you work with our existing developers / CMS?<span class="plus"></span></summary><div class="answer">Yes. We work in Webflow, WordPress, Shopify, Next.js, and most custom stacks. If your team prefers to implement, we'll hand off Figma + Loom walkthroughs and review their work.</div></details>
+      <details><summary>What does a strategy call cost?<span class="plus"></span></summary><div class="answer">Nothing. It's a focused 30–45 minute conversation about your goals and the biggest opportunities we can see. If there's a genuine fit, we'll talk scope. If not, we'll tell you what to do anyway.</div></details>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA ────────────────────────────────────────────── -->
+<section class="final-cta">
+  <div class="glow" aria-hidden="true"></div>
+  <div class="container-wt relative">
+    <h2 class="final-line">Your website can do <span class="final-rotator" data-words="more,leads,calls,bookings,revenue"><span>more</span></span>.</h2>
+    <div class="mt-10 flex justify-center">
+      <a class="btn btn-primary btn-lg" href="book.html">Book Strategy Call
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<div id="site-footer"></div>
+
+<script src="assets/partials.js" defer></script>
+<script src="assets/app.js" defer></script>
+</body></html>
